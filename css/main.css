@@ -74,6 +74,7 @@ html {
 
   .inset-img {
     display: none;
+    border-color: #000;
   }
 
 }
