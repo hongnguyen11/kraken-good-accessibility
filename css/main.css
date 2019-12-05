@@ -58,9 +58,15 @@ html {
   border-radius: 6px 6px 0 0;
 }
 
+.nav-focus:hover,
+.nav-focus:focus {
+  border: 2px solid #000;
+  background-color: #1e7c74;
+}
+
 @media only screen and (min-width: 38em) {
 
-  .nav-focus {
+  .nav-focus:focus {
     border: 2px solid #000;
     background-color: #1e7c74;
   }
@@ -76,6 +82,10 @@ html {
   .inset-img {
     display: none;
     border-color: #000;
+  }
+
+  .chapter-name {
+    border: 0;
   }
 
 }
